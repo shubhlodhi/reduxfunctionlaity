@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px;
+    height: 300px;
+    width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* border: 10px solid black; */
+    /* width: 50%; */
+}
+.input-container {
+    position: relative;
+    width: 300px;
+    display: flex;
+
+}
+.input-container button {
+    margin-left: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 40px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    background: #fff;
+}
+
+.input-container input:focus {
+    border-color: green;
+    box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5);
+}
+
+.input-container i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #3498db;
+    font-size: 18px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.counter h2{
+    margin-left: 20px;
+    
+}
+.numbers {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(118, 143, 219);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #2980b9;
+   
+}
+.input img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* margin: 10px; */
+}
+.plus{
+    margin-left: 15px;
+}
+td img{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
